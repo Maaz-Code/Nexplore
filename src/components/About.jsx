@@ -12,7 +12,7 @@ const About = () => {
                     </p>
                     <h5>"explore new stuff to cure your boredom."</h5>
                 </div>
-                <div className="content col-lg-6">
+                <div className="col-lg-6">
                     <img src={picture} alt="" className="img-fluid"/>
                 </div>
             </div>            

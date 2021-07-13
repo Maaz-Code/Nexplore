@@ -12,11 +12,13 @@
         font-family: 'Zen Tokyo Zoo',cursive;
         padding: 0;
     }
-    
     .nav-link:hover {
             background-color: #fff;
             color: #111 !important;
-    } 
+    }
+    .navbar-toggler:hover {
+        border: #fff 1px solid;
+    }
 }
 
 footer {
