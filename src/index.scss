@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.menu_active {
+    border-bottom: #fff 1px solid;
+    color: #fff !important;
+}
+
+.navbar {
+    .navbar-brand {
+        font-size: 2.2rem;
+        font-family: 'Zen Tokyo Zoo',cursive;
+        padding: 0;
+    }
+    
+    .nav-link:hover {
+            background-color: #fff;
+            color: #111 !important;
+    } 
+}
+
+footer {
+    p {
+        color: #fff;
+    }
+    a {
+        color: #fff;
+        font-size: 1.4rem;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.content {
+    h1,h5 {
+        font-family: 'Lobster',cursive;
+    }
+    P{
+        text-align: justify;
+    }
+}
