@@ -6,7 +6,6 @@ import Anime from "./components/Anime";
 import Navbar from "./components/Navbar";
 import Recommend from "./components/Recommend";
 import Footer from "./components/Footer";
-import './script';
 import { Switch, Route, Redirect } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
