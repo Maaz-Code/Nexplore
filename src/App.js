@@ -6,9 +6,11 @@ import Anime from "./components/Anime";
 import Navbar from "./components/Navbar";
 import Recommend from "./components/Recommend";
 import Footer from "./components/Footer";
+import './script';
 import { Switch, Route, Redirect } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import Form from "./components/Form";
 
 const App = () => {
   return (
@@ -20,6 +22,7 @@ const App = () => {
         <Route exact path='/songs' component={Songs} />
         <Route exact path='/movies' component={Movies} />
         <Route exact path='/anime' component={Anime} />
+        <Route exact path="/recommend/form" component={Form} />
         <Redirect to='/' />
       </Switch>
       <Footer />
