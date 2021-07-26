@@ -27,6 +27,9 @@ const Navbar = () => {
                             <li className="nav-item me-lg-4">
                                 <NavLink activeClassName="menu_active" className="nav-link" to="/anime">Anime</NavLink>
                             </li>
+                            <li className="nav-item me-lg-4">
+                                <NavLink activeClassName="menu_active" className="nav-link" to="/auth">Sign In</NavLink>
+                            </li>
                          </ul>
                     </div>
                 </div>
