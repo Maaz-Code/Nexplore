@@ -5,7 +5,6 @@ import Movies from "./components/Movies";
 import Anime from "./components/Anime";
 import Navbar from "./components/Navbar";
 import Recommend from "./components/Recommend";
-import Footer from "./components/Footer";
 import Auth from "./components/Auth";
 import { Switch, Route, Redirect } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
@@ -17,16 +16,15 @@ const App = () => {
     <>
       <Navbar />
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/home' component={Home} />
         <Route exact path='/recommend' component={Recommend} />
         <Route exact path='/songs' component={Songs} />
         <Route exact path='/movies' component={Movies} />
         <Route exact path='/anime' component={Anime} />
         <Route exact path='/auth' component={Auth} />
         <Route exact path="/recommend/form" component={Form} />
-        <Redirect to='/' />
+        <Redirect to='/home' />
       </Switch>
-      <Footer />
     </>
   );
 }

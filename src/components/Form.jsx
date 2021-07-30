@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer';
 import * as Icon from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
 
@@ -16,11 +17,8 @@ const Form = () => {
                             <div className="mb-4">
                                 <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Name"/>
                             </div>
-                            <div className="d-flex align-items-center mb-4">
+                            <div className="mb-4">
                                 <input type="text" className="mr-3 form-control" id="exampleInputPassword1" placeholder="Reference"/>
-                                <button type="button" className="btn btn-sm" data-bs-toggle="tooltip" title="help" data-bs-content="more info here" data-bs-placement="left" data-bs-container="body">
-                                    <Icon.QuestionCircle/>
-                                </button>
                             </div>
                             <button type="submit" className="btn btn-dark">Submit</button>
                         </form>
@@ -31,6 +29,7 @@ const Form = () => {
                         </Link>
                     </div>
             </div>
+            <Footer/>
         </>
     )
 }

@@ -6,7 +6,7 @@ const Footer = () => {
         <>
         <footer className="p-2 fixed-bottom bg-dark text-center">
             <p>
-                Copyright © 2021 | Developed by Maaz Ahmed.
+                Developed by Maaz Ahmed | <small>Note: If a page is not showing anything try reloading the website.</small>
             </p>
             <div className="container">
                 <div className="row">
