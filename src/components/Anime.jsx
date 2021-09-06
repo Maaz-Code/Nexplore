@@ -8,6 +8,14 @@ const Anime = () => {
                     <h1>Anime</h1>
                     <p>Here is the list of anime along with the number of episodes or seasons.</p>
                     <hr/>
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <h5><u>Name</u></h5>
+                        </div>
+                        <div className="col-lg-6">
+                            <h5><u>Seasons</u></h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

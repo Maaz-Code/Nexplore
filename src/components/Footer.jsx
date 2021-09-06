@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                 <div className="col-4">
-                    <a href="https://github.com/Maaz-Code" target="_blank" rel="noreferrer" title="GitHub">
+                    <a href="https://github.com/Maaz-Code/Nexplore" target="_blank" rel="noreferrer" title="GitHub">
                     <Icon.Github/>
                     </a>
                 </div>

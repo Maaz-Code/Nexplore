@@ -23,6 +23,7 @@
         background-color: #d8d8d8;
     }
 }
+
 .menu_active {
     border-bottom: #fff 1px solid;
     color: #fff !important;
@@ -63,4 +64,8 @@ footer {
     p{
         text-align: justify;
     }
+}
+
+.line {
+    border-right: #111 1px solid;
 }

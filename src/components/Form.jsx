@@ -15,10 +15,10 @@ const Form = () => {
                     <div className="shadow p-4 col-md-12">
                        <form>
                             <div className="mb-4">
-                                <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Name"/>
+                                <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Name" required="true"/>
                             </div>
                             <div className="mb-4">
-                                <input type="text" className="mr-3 form-control" id="exampleInputPassword1" placeholder="Reference"/>
+                                <input type="text" className="mr-3 form-control" id="exampleInputPassword1" placeholder="Reference" required="true"/>
                             </div>
                             <button type="submit" className="btn btn-dark">Submit</button>
                         </form>
