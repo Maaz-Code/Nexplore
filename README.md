@@ -1,4 +1,9 @@
 # Nexplore
-I have created a basic ReactJS webapp using Sass for styling. The authentication is provided using Clerk.
+A web application to share some underrated songs and movies for others to be recommended.
+## Technology
+- Authentication: Clerk
+- DataBase: To be decided
+- Frontend Framework: ReactJS
+- Styling: SASS
+- Hosting: Vercel
 #### Link: https://nexplore.vercel.app/home
-Currently Clerk auth is not functioning on the website but running fine on local host.
